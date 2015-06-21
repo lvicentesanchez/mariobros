@@ -1,3 +1,3 @@
 # mariobros
 
-Playing around with haskell pipes.
+Playing around with haskell conduits and pipes.

@@ -1,0 +1,20 @@
+name:                  mariobros
+version:               0.1.0.0
+license:               BSD3
+license-file:          LICENSE
+author:                Luis Angel Vicente Sanchez
+maintainer:            langel.vicente@gmail.com
+-- copyright:           
+category:              Web
+build-type:            Simple
+-- extra-source-files:  
+cabal-version:         >= 1.22
+
+executable             mariobros
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N             
+  build-depends:       base,
+                       pipes
+  hs-source-dirs:      src/main    
+  default-language:    Haskell2010
+

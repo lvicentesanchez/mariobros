@@ -1,0 +1,8 @@
+-- flags:
+--  system-ghc: false
+
+packages:
+- .
+
+resolver: nightly-2015-06-21
+

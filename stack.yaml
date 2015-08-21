@@ -3,5 +3,5 @@ system-ghc: false
 packages:
   - .
 
-resolver: nightly-2015-07-06
+resolver: lts-3.1
 
